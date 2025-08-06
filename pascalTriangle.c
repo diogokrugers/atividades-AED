@@ -31,7 +31,7 @@ int **Generate( const int numRows, int *returnSize, int **returnColumnSizes ) {
 }
 
 int main( void ) {
-	const int numRows = 5;
+	const int numRows = 7;
 	int *returnColumnSizes = NULL;
 	int returnSize = 0;
 

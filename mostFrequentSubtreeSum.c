@@ -144,7 +144,7 @@ int main() {
     
     TreeNode* root = NovoNodo(5);
     root->left = NovoNodo(2);
-    root->right = NovoNodo(-5);
+    root->right = NovoNodo(-3);
     
     int returnSize;
     int* resultado = findFrequentTreeSum(root, &returnSize);
